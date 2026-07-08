@@ -1,0 +1,32 @@
+/*Dark Theme (Default)*/
+
+:root {
+  --bg-color: #0F172A;
+  --card-color: #1E293B;
+
+  --heading-color: #F8FAFC;
+  --text-color: #CBD5E1;
+
+  --accent-color: #8B5CF6;
+
+  --border-color: #334155;
+
+  --navbar-height: 68px;
+
+  --transition-speed: 0.3s;
+}
+
+
+/*Light Theme*/
+
+.light-theme {
+  --bg-color: #F8FAFC;
+  --card-color: #FFFFFF;
+
+  --heading-color: #0F172A;
+  --text-color: #475569;
+
+  --accent-color: #8B5CF6;
+
+  --border-color: #E2E8F0;
+}

@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: Inter, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  font-family: Arial, sans-serif;
+
+  transition:
+    background-color var(--transition-speed),
+    color var(--transition-speed);
 }
