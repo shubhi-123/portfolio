@@ -1,0 +1,39 @@
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 2rem;
+}
+
+.content {
+    max-width: 720px;
+}
+
+.content h1 {
+    color: var(--heading-color);
+
+    font-size: 3.8rem;
+    font-weight: 700;
+
+    text-align: center;
+
+    line-height: 1.1;
+
+    margin-bottom: 1rem;
+}
+
+.content p {
+    color: var(--text-color);
+
+    font-size: 1.15rem;
+    line-height: 1.65;
+
+    text-align: left;
+}
+
+.content span {
+    color: var(--accent-color);
+}
