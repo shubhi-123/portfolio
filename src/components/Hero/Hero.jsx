@@ -4,11 +4,13 @@ function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
-        <h1>
-  Hi! I'm <span>Shubhi Narwaria.</span>
-</h1>
+        <p className={styles.greeting}>Hi! I'm</p>
 
-        <p>
+        <h1 className={styles.name}>
+          Shubhi Narwaria.
+        </h1>
+
+        <p className={styles.description}>
           I'm a third-year B.Tech student in Information Technology at the
           Indian Institute of Information Technology, Bhopal, with a strong
           interest in Machine Learning, Artificial Intelligence, and Data
