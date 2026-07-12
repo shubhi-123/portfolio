@@ -1,0 +1,191 @@
+.education {
+    padding: 6rem 2rem;
+}
+
+/* ---------- Heading ---------- */
+
+.headingContainer {
+    max-width: 850px;
+    margin: 0 auto 3rem;
+}
+
+.heading {
+    color: var(--heading-color);
+
+    font-size: 2.2rem;
+    font-weight: 700;
+
+    margin-bottom: 0.6rem;
+}
+
+.underline {
+    width: 80px;
+    height: 4px;
+
+    background: var(--accent-color);
+
+    border-radius: 999px;
+}
+
+/* ---------- Layout ---------- */
+
+.container {
+    max-width: 920px;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+
+    gap: 2rem;
+}
+
+/* ---------- Cards ---------- */
+
+.collegeCard,
+.schoolCard {
+    border: 1px solid rgba(168, 85, 247, 0.25);
+
+    border-radius: 18px;
+
+    background: transparent;
+
+    padding: 2rem;
+}
+
+.collegeCard:hover,
+.schoolCard:hover {
+    border-color: var(--accent-color);
+}
+
+/* ---------- Shared ---------- */
+
+.content {
+    margin-top: 1.5rem;
+}
+
+/* ---------- College ---------- */
+
+.collegeCard h3 {
+    color: var(--accent-color);
+
+    font-size: 1.45rem;
+}
+
+.institute {
+    color: var(--text-color);
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+}
+
+.subtitle {
+    color: #9ca3af;
+
+    font-size: 0.95rem;
+
+    font-style: italic;
+
+    margin-top: 0.2rem;
+}
+
+.duration {
+    color: var(--text-color);
+
+    font-size: 1.05rem;
+
+    font-weight: 600;
+
+    margin-top: 2rem;
+}
+
+
+/* ---------- Coursework ---------- */
+
+.coursework {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 0.65rem 2rem;
+
+    margin-top: 1.7rem;
+
+    padding-left: 1.2rem;
+}
+
+.coursework li {
+    color: var(--text-color);
+
+    font-size: 1rem;
+
+    line-height: 1.6;
+}
+
+/* ---------- School ---------- */
+
+.schoolCard {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.schoolSection h3 {
+    color: var(--accent-color);
+
+    font-size: 1.3rem;
+}
+
+.schoolSection p {
+    color: var(--text-color);
+
+    font-size: 1.05rem;
+
+    line-height: 1.8;
+}
+
+.score {
+    color: var(--text-color);
+
+    font-size: 1.3rem;
+
+    font-weight: 700;
+
+    margin-top: 1.2rem;
+}
+
+.divider {
+    height: 1px;
+
+    background: rgba(168, 85, 247, 0.25);
+
+    margin: 1.5rem 0;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 850px) {
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .coursework {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .coursework {
+        grid-template-columns: 1fr;
+    }
+
+}
+.schoolName {
+    white-space: nowrap;
+}
