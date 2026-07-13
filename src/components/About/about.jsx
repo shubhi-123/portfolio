@@ -25,19 +25,6 @@ function About() {
           to intelligent solutions that matter.
         </p>
 
-
-        {/* <p className={styles.description}>
-          Most of my learning has come through self-study, experimenting with
-          ideas, and building projects. I enjoy understanding concepts from the
-          ground up, exploring different approaches, and learning through
-          implementation.
-        </p>
-
-        <p className={styles.description}>
-          As I continue to learn and grow, I look forward to contributing to
-          intelligent solutions that matter.
-        </p> */}
-
       </div>
     </section>
   );

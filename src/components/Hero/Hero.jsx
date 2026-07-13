@@ -25,7 +25,7 @@ function Hero() {
   <div className={styles.iconWrapper}>
     <span className={styles.tooltip}>Resume</span>
     <a
-      href="/Shubhi_IIITB_Resume.pdf"
+      href={`${import.meta.env.BASE_URL}Shubhi_IIITB_Resume.pdf`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Resume"
