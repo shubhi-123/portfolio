@@ -1,0 +1,128 @@
+.profiles {
+    padding: 6rem 2rem;
+}
+
+/* ---------- Heading ---------- */
+
+.headingContainer {
+    max-width: 850px;
+
+    margin: 0 auto 3rem;
+}
+
+.heading {
+    color: var(--heading-color);
+
+    font-size: 2.2rem;
+    font-weight: 700;
+
+    margin-bottom: 0.6rem;
+}
+
+.underline {
+    width: 260px;
+    height: 2px;
+
+    background: var(--accent-color);
+
+    border-radius: 999px;
+}
+
+/* ---------- Grid ---------- */
+
+.grid {
+    max-width: 920px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2rem;
+}
+
+/* ---------- Card ---------- */
+
+.card {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    border: 1px solid rgba(168, 85, 247, 0.25);
+
+    border-radius: 18px;
+
+    background: transparent;
+
+    padding: 1.6rem 1.2rem;
+
+    transition: border-color 0.2s ease;
+}
+
+.card:hover {
+    border-color: var(--accent-color);
+}
+
+/* ---------- Icon ---------- */
+
+.icon {
+    font-size: 2.2rem;
+
+    color: var(--accent-color);
+
+    margin-bottom: 0.9rem;
+}
+
+/* ---------- Platform ---------- */
+
+.card h3 {
+    color: var(--accent-color);
+
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    margin-bottom: 0.2rem;
+}
+
+/* ---------- Subtitle ---------- */
+
+.subtitle {
+    color: #9ca3af;
+
+    font-size: 0.9rem;
+
+    font-style: italic;
+
+    margin-bottom: 1rem;
+}
+
+.card:not(:has(.subtitle)) .profileLink {
+    margin-top: 1rem;
+}
+
+/* ---------- Link ---------- */
+
+.profileLink {
+    color: var(--accent-color);
+
+    text-decoration: none;
+
+    font-weight: 600;
+}
+
+.profileLink:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 850px) {
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+}

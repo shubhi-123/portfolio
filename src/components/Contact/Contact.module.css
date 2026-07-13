@@ -1,0 +1,83 @@
+.contact {
+    padding: 6rem 2rem;
+}
+
+.container {
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+/* ---------- Heading ---------- */
+
+.heading {
+    color: var(--heading-color);
+
+    font-size: 2.2rem;
+    font-weight: 700;
+
+    margin-bottom: 0.6rem;
+}
+
+.underline {
+    width: 135px;
+    height: 2px;
+
+    background: var(--accent-color);
+
+    border-radius: 999px;
+
+    margin: 0 auto 2rem;
+}
+
+/* ---------- Text ---------- */
+
+.text {
+    color: var(--text-color);
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+
+    margin-bottom: 2.5rem;
+}
+
+/* ---------- Links ---------- */
+
+.links {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 1.3rem;
+}
+
+.link {
+    display: flex;
+
+    align-items: center;
+
+    gap: 0.8rem;
+
+    color: var(--text-color);
+
+    text-decoration: none;
+
+    font-size: 1.05rem;
+
+    transition: color 0.2s ease;
+}
+
+.link:hover {
+    color: var(--accent-color);
+}
+
+.icon {
+    font-size: 1.5rem;
+
+    color: var(--accent-color);
+}

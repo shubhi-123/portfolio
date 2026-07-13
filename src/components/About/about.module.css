@@ -17,8 +17,8 @@
 }
 
 .underline {
-    width: 80px;
-    height: 4px;
+    width: 160px;
+    height: 2px;
 
     background: var(--accent-color);
 
