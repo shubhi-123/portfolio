@@ -16,60 +16,36 @@ function Education() {
 
           <div className={styles.content}>
             <p className={styles.institute}>
-  Indian Institute of Information Technology, Bhopal
-</p>
+              Indian Institute of Information Technology, Bhopal
+            </p>
 
-<p className={styles.subtitle}>
-  (IIIT Bhopal)
-</p>
+            <p className={styles.subtitle}>
+              (IIIT Bhopal)
+            </p>
 
-<p className={styles.duration}>
-    2024 – Present &nbsp; | &nbsp; CGPA: 7.97
-</p>
-
-<ul className={styles.coursework}>
-  <li>Data Structures & Algorithms</li>
-  <li>Computer Networks</li>
-
-  <li>Object-Oriented Programming</li>
-  <li>Linear Algebra</li>
-
-  <li>Database Management Systems</li>
-  <li>Probability and Statistics</li>
-
-  <li>Operating Systems</li>
-</ul>
+            <p className={styles.duration}>
+              2024 – Present &nbsp; | &nbsp; Current CGPA: 7.97
+            </p>
           </div>
         </div>
 
         {/* School */}
 
         <div className={styles.schoolCard}>
-          <div className={styles.schoolSection}>
-            <h3>Class XII</h3>
+          <h3>Delhi International School, Indore</h3>
 
-            <div className={styles.content}>
-              <p className={styles.schoolName}>
-    Delhi International School, Indore
-</p>
+          <div className={styles.content}>
 
-              <p className={styles.subtitle}>(CBSE)</p>
-
-              <p className={styles.score}>84.8%</p>
+            <div className={styles.schoolRow}>
+              <span>Class XII</span>
+              <span className={styles.score}>84.8%</span>
             </div>
-          </div>
 
-          <div className={styles.divider}></div>
+            <div className={styles.divider}></div>
 
-          <div className={styles.schoolSection}>
-            <h3>Class X</h3>
-
-            <div className={styles.content}>
-              <p>Delhi International School, Indore</p>
-
-              <p className={styles.subtitle}>(CBSE)</p>
-
-              <p className={styles.score}>93.8%</p>
+            <div className={styles.schoolRow}>
+              <span>Class X</span>
+              <span className={styles.score}>93.8%</span>
             </div>
           </div>
         </div>

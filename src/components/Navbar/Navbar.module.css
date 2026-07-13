@@ -13,10 +13,17 @@
   left: 0;
 
   background-color: var(--bg-color);
+
   border-bottom: 1px solid var(--border-color);
 
   z-index: 1000;
+
+  transition:
+    background-color var(--transition-speed),
+    border-color var(--transition-speed);
 }
+
+/* ---------- Theme Button ---------- */
 
 .themeButton {
   display: flex;
@@ -30,20 +37,27 @@
   border: none;
 
   color: var(--heading-color);
+
   font-size: 1.5rem;
 
   cursor: pointer;
 
-  transition: color 0.3s ease;
+  transition:
+    color var(--transition-speed),
+    transform 0.2s ease;
 }
 
 .themeButton:hover {
   color: var(--accent-color);
+  transform: rotate(15deg);
 }
+
+/* ---------- Navigation ---------- */
 
 .navLinks {
   display: flex;
   align-items: center;
+
   gap: 2.2rem;
 
   list-style: none;
@@ -53,16 +67,20 @@
   position: relative;
 
   text-decoration: none;
+
   color: var(--heading-color);
 
   font-size: 1rem;
   font-weight: 500;
+
+  transition: color var(--transition-speed);
 }
 
 .navLinks a::after {
   content: "";
 
   position: absolute;
+
   left: 0;
   bottom: -6px;
 
@@ -70,9 +88,14 @@
   height: 2px;
 
   background-color: var(--accent-color);
+
   border-radius: 10px;
 
-  transition: color var(--transition-speed) ease;
+  transition: width var(--transition-speed);
+}
+
+.navLinks a:hover {
+  color: var(--accent-color);
 }
 
 .navLinks a:hover::after {

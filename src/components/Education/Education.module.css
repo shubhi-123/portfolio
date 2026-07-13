@@ -11,8 +11,9 @@
 
 .heading {
     color: var(--heading-color);
-
-    font-size: 2.2rem;
+    font-family: "EB Garamond", serif;
+    letter-spacing: -0.01em;
+    font-size: 2.5rem;
     font-weight: 700;
 
     margin-bottom: 0.6rem;
@@ -35,7 +36,7 @@
     margin: 0 auto;
 
     display: grid;
-    grid-template-columns: 1.8fr 1fr;
+    grid-template-columns: 1.6fr 1.2fr;
 
     gap: 2rem;
 }
@@ -100,61 +101,30 @@
     margin-top: 2rem;
 }
 
-
-/* ---------- Coursework ---------- */
-
-.coursework {
-    display: grid;
-
-    grid-template-columns: repeat(2, 1fr);
-
-    gap: 0.65rem 2rem;
-
-    margin-top: 1.7rem;
-
-    padding-left: 1.2rem;
-}
-
-.coursework li {
-    color: var(--text-color);
-
-    font-size: 1rem;
-
-    line-height: 1.6;
-}
-
 /* ---------- School ---------- */
 
-.schoolCard {
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: space-between;
-}
-
-.schoolSection h3 {
+.schoolCard h3 {
     color: var(--accent-color);
 
-    font-size: 1.3rem;
+    font-size: 1.45rem;
 }
 
-.schoolSection p {
+.schoolRow {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 1.3rem;
+
     color: var(--text-color);
 
     font-size: 1.05rem;
-
-    line-height: 1.8;
 }
 
 .score {
-    color: var(--text-color);
-
-    font-size: 1.3rem;
-
     font-weight: 700;
-
-    margin-top: 1.2rem;
 }
 
 .divider {
@@ -162,7 +132,7 @@
 
     background: rgba(168, 85, 247, 0.25);
 
-    margin: 1.5rem 0;
+    margin: 1rem 0;
 }
 
 /* ---------- Responsive ---------- */
@@ -173,19 +143,4 @@
         grid-template-columns: 1fr;
     }
 
-    .coursework {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    .coursework {
-        grid-template-columns: 1fr;
-    }
-
-}
-.schoolName {
-    white-space: nowrap;
 }

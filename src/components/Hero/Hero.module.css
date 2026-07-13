@@ -25,17 +25,23 @@
     line-height: 1;
 
     text-align: left;
+    font-family: "EB Garamond", serif;
+
+    letter-spacing: -0.02em;
 }
 
 .name {
     color: var(--accent-color);
 
     font-size: clamp(4rem, 6vw, 5rem);
-    font-weight: 800;
+    font-weight: 700;
 
     line-height: 1;
 
     text-align: left;
+    font-family: "EB Garamond", serif;
+
+    letter-spacing: -0.02em;
 }
 
 .description {
@@ -48,4 +54,89 @@
     text-align: left;
 
     margin-top: 0.2rem;
+}
+.socialLinks {
+    display: flex;
+
+    align-items: center;
+
+    gap: 2rem;
+
+    margin-top: 2rem;
+}
+
+.socialLinks a {
+    display: flex;
+
+    color: var(--accent-color);
+
+    font-size: 1.8rem;
+
+    transition: opacity 0.2s ease;
+}
+
+.socialLinks a:hover {
+    opacity: 0.75;
+}
+
+.iconWrapper {
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.tooltip {
+    position: absolute;
+
+    bottom: 130%;
+
+    background: var(--accent-color);
+
+    color: white;
+
+    padding: 0.35rem 0.7rem;
+
+    border-radius: 8px;
+
+    font-size: 0.85rem;
+
+    font-weight: 500;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transition: opacity 0.2s ease;
+
+    white-space: nowrap;
+
+    pointer-events: none;
+}
+
+.tooltip::after {
+    content: "";
+
+    position: absolute;
+
+    top: 100%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    border-width: 6px;
+
+    border-style: solid;
+
+    border-color: var(--accent-color) transparent transparent transparent;
+}
+
+.iconWrapper:hover .tooltip {
+    opacity: 1;
+
+    visibility: visible;
 }

@@ -8,17 +8,14 @@
 
 .footer p {
     color: var(--text-color);
+    opacity: 0.85;
 
     font-size: 0.95rem;
 }
 
+
 .tagline {
-    margin-top: 0.5rem;
-
-    color: var(--accent-color);
-
-    font-weight: 500;
-}
-.footer {
-    margin-top: 4rem;
+    font-style: italic;
+    opacity: 0.85;
+    margin-top: 0.4rem;
 }

@@ -12,9 +12,10 @@
 .heading {
     color: var(--heading-color);
 
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 700;
-
+    font-family: "EB Garamond", serif;
+    letter-spacing: -0.01em;
     margin-bottom: 0.6rem;
 }
 

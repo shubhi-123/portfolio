@@ -1,16 +1,54 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive personal portfolio built with **React** and **Vite** to showcase my skills, projects, education, and coding profiles.
+# 🌐 Personal Portfolio
 
-Currently, two official plugins are available:
+![Portfolio Preview](preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A clean and responsive personal portfolio built with React and Vite.
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Portfolio:** https://shubhi-123.github.io/portfolio
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design
+- Dark & Light theme toggle
+- Clean and minimal UI
+- Project showcase
+- Skills overview
+- Education section
+- Coding profiles
+- Contact section
+
+## 🛠️ Built With
+
+- React
+- Vite
+- CSS Modules
+- React Icons
+
+## 📂 Featured Projects
+
+### 🩺 Diabetes Predictor
+Machine learning classification model built using Logistic Regression to predict diabetes from clinical health data.
+
+**Tech Stack:** Python, Scikit-learn, Pandas, NumPy, Matplotlib
+
+---
+
+### 🤖 Offline AI Inference
+Local AI chatbot powered by Ollama, enabling private offline inference with a simple web interface.
+
+**Tech Stack:** Python, Ollama, Streamlit
+
+## 📬 Contact
+
+- **Email:** shubhi.narwaria@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/shubhi-narwaria/
+- **GitHub:** https://github.com/shubhi-123
+
+---
+
+Built with curiosity.
