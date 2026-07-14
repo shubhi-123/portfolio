@@ -10,19 +10,16 @@ const profiles = [
   {
     icon: <SiCodechef />,
     name: "CodeChef",
-    subtitle: "(2★)",
     link: "https://www.codechef.com/users/shubhinarwaria",
   },
   {
     icon: <SiLeetcode />,
     name: "LeetCode",
-    subtitle: "",
     link: "https://leetcode.com/u/bg2bULVewq/",
   },
   {
     icon: <SiHackerrank />,
     name: "HackerRank",
-    subtitle: "",
     link: "https://www.hackerrank.com/profile/shubhi_narwaria",
   },
 ];
