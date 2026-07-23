@@ -22,7 +22,7 @@ function Hero() {
         </p>
 <div className={styles.socialLinks}>
 
-  <div className={styles.iconWrapper}>
+  {/* <div className={styles.iconWrapper}>
     <span className={styles.tooltip}>Resume</span>
     <a
       href={`${import.meta.env.BASE_URL}Shubhi_IIITB_Resume.pdf`}
@@ -32,7 +32,7 @@ function Hero() {
     >
       <HiOutlineDocumentText />
     </a>
-  </div>
+  </div> */}
 
   <div className={styles.iconWrapper}>
     <span className={styles.tooltip}>LinkedIn</span>
