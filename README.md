@@ -1,29 +1,30 @@
 # Personal Portfolio
 
-A clean and responsive personal portfolio built with **React** and **Vite** to showcase my skills, projects, education, and coding profiles.
+A responsive personal portfolio built with **React**, **HTML**, **CSS**, and **JavaScript** to showcase my skills, projects, education, coding profiles, and professional journey.
 
 ![Portfolio Preview](preview.png)
 
-A clean and responsive personal portfolio built with React and Vite.
 **Portfolio:** https://shubhi-123.github.io/portfolio
 
 ## Features
 
-- Responsive design
+- Responsive design for desktop and mobile
 - Dark & Light theme toggle
-- Clean and minimal UI
-  
+- Clean and minimal user interface
+- Projects showcase with technology stack
+- Coding profiles with direct links
+- Language proficiency section
+- Contact section with quick access links
+- Deployed using GitHub Pages
+
 ## Built With
 
 - React
-- Vite
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 - CSS Modules
 - React Icons
-
-## Featured Projects
-
-### Diabetes Predictor
-### Offline AI Inference
 
 ## 📬 Contact
 
